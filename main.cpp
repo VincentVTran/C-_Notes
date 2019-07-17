@@ -9,7 +9,7 @@ ___________________Pre-Coding Installation_________________
             *This will allow the kernel to locate the gcc file (Which allows user to use CLI)
             *Will ultimately be the same as going to "cd C:\MinGW\bin" then running "gcc"
 
-___________________Pre-Coding Installation_________________
+___________________Compiling and Running_________________
     Compiling the code-
         -gcc [file name] -o [desired output file name]
             *-o = output
@@ -17,10 +17,9 @@ ___________________Pre-Coding Installation_________________
         -g++ is the same as gcc, but treats all files as c++
         -gcc compiles to proper output file
 */
+#include <iostream>
 
-#include <stdio.h>
- 
 int main() {
-    printf("Hello, world!\n");
+    std::cout << "Hello, world!\n";
     return 0;
 }
